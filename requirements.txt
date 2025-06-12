@@ -1,0 +1,4 @@
+py7zr
+lz4
+Brotli
+# pylibsparse

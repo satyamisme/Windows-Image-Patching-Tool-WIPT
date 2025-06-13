@@ -1,6 +1,7 @@
 py7zr
 lz4
 Brotli
+requests
 # pylibsparse (requires direct git install or vendoring, see README.markdown)
 # Example for git install (to be verified):
 # git+https://github.com/akazh/pylibsparse.git

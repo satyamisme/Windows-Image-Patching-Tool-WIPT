@@ -53,8 +53,15 @@ if %errorlevel% neq 0 (
 )
 
 echo.
-echo WIPT setup process finished.
-echo To run WIPT, use the run_wipt.bat script (e.g., run_wipt.bat patch --input ...).
+echo WIPT setup process complete.
+echo To run WIPT CLI, use 'run_wipt.bat'.
+echo To run WIPT GUI, use 'run_wipt_gui.bat'.
+echo Alternatively, activate the virtual environment manually:
+echo   %VENV_DIR%\Scripts\activate.bat
+echo Then run:
+echo   python wipt.py --help (for CLI)
+echo   python wipt_gui.py (for GUI)
+echo.
 
 endlocal
 goto :eof
